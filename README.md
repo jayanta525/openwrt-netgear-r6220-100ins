@@ -1,5 +1,4 @@
-# openwrt-netgear-r6220-100ins
-Netgear R6220-100INS AC1200 OpenWrt Firmware
+# Netgear R6220-100INS AC1200 OpenWrt Firmware
 
 This is a modified ramips build for the netgear R6220-100INS.
 
