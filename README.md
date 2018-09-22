@@ -39,5 +39,8 @@ Brick Recovery:
 2. Obtain router default firmware from [Netgear Support](https://www.netgear.com/support/product/R6220#download).
 
 
-*The builds will be updated every week. Request support for customised builds.
-Request support here: jayanta.gogoi525@gmail.com*
+
+
+*The builds will be updated every week. Request support for customised builds.*
+
+*Request support here: jayanta.gogoi525@gmail.com*
