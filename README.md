@@ -35,7 +35,7 @@ sysupgrade -v /tmp/***-sysupgrade.tar
 ```
 
 Brick Recovery:
-1. If somethings goes south, use [nmrpflash](https://github.com/jclehner/nmrpflash) for brick recovery.
+1. If something goes south, use [nmrpflash](https://github.com/jclehner/nmrpflash) for brick recovery.
 2. Obtain router default firmware from [Netgear Support](https://www.netgear.com/support/product/R6220#download).
 
 
