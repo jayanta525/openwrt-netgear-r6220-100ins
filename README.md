@@ -42,5 +42,3 @@ Brick Recovery:
 
 
 *The builds will be updated every week. Request support for customised builds.*
-
-*Request support here: jayanta.gogoi525@gmail.com*
