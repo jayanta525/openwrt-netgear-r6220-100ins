@@ -40,4 +40,4 @@ Brick Recovery:
 
 
 
-*The builds will be updated every week. Request support for customised builds. If you're having trouble, create an issue on GitHub, or request for support [here](mailto:jayanta.gogoi525@gmail.com)*
+*The builds will be updated every month/on-request. Request support for customised builds. If you're having trouble, create an issue on GitHub, or request for support [here](mailto:jayanta.gogoi525@gmail.com)*
