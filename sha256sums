@@ -1,4 +1,4 @@
-db37aeaf2b23320662b358b5fe19a5c1f4c5ed883d5fee892ac989a86212923e *openwrt-18.06.1-ramips-mt7621-device-r6220.manifest
-cae03884c9bc085a664efed8797c6555c481f5502e6927daba2dce213ac81f88 *openwrt-18.06.1-ramips-mt7621-r6220-squashfs-kernel.bin
-b23dc983e5c681f76b5558aacb21872bae703530558b68631d4cdc1664f9d569 *openwrt-18.06.1-ramips-mt7621-r6220-squashfs-rootfs.bin
-ff8108d2d8bdb613e7ac04dd062fe26068d5e213b6f565f2c91c48727159843f *openwrt-18.06.1-ramips-mt7621-r6220-squashfs-sysupgrade.tar
+a80a9cffba40fea7b13acb9de2ffdd188f4a6f8b8f45edb5dac240421b72da17 *openwrt-ramips-mt7621-device-r6220.manifest
+36c05b7a30c42d4031aa834f4bcef7ad3dd8a31445d34f60f1c5774a562d932d *openwrt-ramips-mt7621-r6220-squashfs-kernel.bin
+3a57d220e363b479d011681471dacf73faa8d4fafbbc9b769126b5bec620637e *openwrt-ramips-mt7621-r6220-squashfs-rootfs.bin
+bb4b8ae3d33b0c20109e44c3784e9d7a22af89c75c95f7b469633b029fad6d31 *openwrt-ramips-mt7621-r6220-squashfs-sysupgrade.tar
