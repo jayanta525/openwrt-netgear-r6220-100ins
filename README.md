@@ -4,9 +4,8 @@ This is a modified ramips build for the netgear R6220-100INS.
 
 Factory partition is adjusted, verify WAN interface MAC address with that printed on packaging.
 
-The package selection and configuration was intended for personal/home use and is overall lighter. The build includes LuCi interface with material theme. 
+This the base image for OpenWrt, only the default packages kept with the wireless drivers with modified kernel for R6220. This build does not includes LuCi. 
 
-Supported USB File System: exFAT, FAT32, NTFS, EXT4, F2FS.
 
 **[Note: This model of R6220 is the 100INS which is currently being sold on Amazon India, please verify the model name printed on the packaging before proceeding with installation]**
 
