@@ -4,9 +4,7 @@ This is a modified ramips build for the netgear R6220-100INS.
 
 Factory partition is adjusted, verify WAN interface MAC address with that printed on packaging.
 
-The package selection and configuration was intended for personal/home use and is overall lighter. The build includes LuCi interface with some useful luci-applications such as adblock, printer-server, samba, mwan3, etc. 
-
-Supported USB File System: exFAT, FAT32, NTFS, EXT4, F2FS.
+The package selection and configuration was intended for personal/home use and is overall lighter and stable. This build includes LuCi interface with some useful luci-applications such as adblock, printer-server, samba, mwan3, sqm, etc. 
 
 **[Note: This model of R6220 is the 100INS which is currently being sold on Amazon India, please verify the model name printed on the packaging before proceeding with installation]**
 
