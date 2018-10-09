@@ -36,9 +36,9 @@ sysupgrade -v /tmp/***-sysupgrade.tar
 1. If Luci fails to connect and no SSH connection, try [OpenWrt Failsafe](https://wiki.openwrt.org/doc/howto/generic.failsafe) to upgrade to a different build.
 
     - Power the router holding the WPS button until the power led starts blinking at a faster pace.
-    - Assign static IP to PC 192.168.1.XXX/24
-    - Telnet or SSH to 192.168.1.1
-    - SCP a sysupgrade.tar firmware file to /tmp
+    - Assign static IP to PC `192.168.1.XXX/24`
+    - Telnet or SSH to `192.168.1.1`
+    - SCP a sysupgrade.tar firmware file to `/tmp`
     - On terminal
      ```
       mount_root
