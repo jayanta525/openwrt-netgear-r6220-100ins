@@ -33,6 +33,7 @@ sysupgrade -v /tmp/***-sysupgrade.tar
 ```
 
 Brick Recovery:
+1. If Luci fails to start and no SSH connection, try [OpenWrt Failsafe](https://wiki.openwrt.org/doc/howto/generic.failsafe) to upgrade to a different build.
 1. If something goes south, use [nmrpflash](https://github.com/jclehner/nmrpflash) for brick recovery.
 2. Obtain router default firmware from [Netgear Support](https://www.netgear.com/support/product/R6220#download).
 
