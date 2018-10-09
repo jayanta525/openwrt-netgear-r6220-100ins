@@ -9,7 +9,7 @@ The package selection and configuration was intended for personal/home use and i
 
 **[Note: This model of R6220 is the 100INS which is currently being sold on Amazon India, please verify the model name printed on the packaging before proceeding with installation]**
 
-# Install Instructions:
+## Install Instructions:
   1. Enable debug mode: ```http://<router_ip>/setup.cgi?todo=debug   [usually 192.168.1.1]```
   2. Copy squashfs-rootfs.bin and squashfs-kernel.bin to a USB drive
   3. Telnet <router_ip> and login as root
@@ -23,7 +23,7 @@ The package selection and configuration was intended for personal/home use and i
   reboot
   ```
   
-Update Instructions:
+## Update Instructions:
 1. Through OpenWrt web interface ```Luci > System > Upgrade > ***-sysupgrade.tar```
 2. Through OpenWrt CLI
 ```
@@ -32,14 +32,18 @@ ssh root@<router_ip>
 sysupgrade -v /tmp/***-sysupgrade.tar
 ```
 
-# Brick Recovery:
+## Brick Recovery:
 1. If Luci fails to connect and no SSH connection, try [OpenWrt Failsafe](https://wiki.openwrt.org/doc/howto/generic.failsafe) to upgrade to a different build.
-  a. Power the router hoilding the WPS button until the power led starts blinking.
-  b. Assign static IP to PC 192.168.1.XXX/24
-  c. Telnet or SSH to 192.168.1.1
-  d. SCP a sysupgrade firmware file to /tmp
-  e. ```mount_root```
-  f. ```sysupgrade -n -v /tmp/sysupgrade.tar```
+
+    - Power the router holding the WPS button until the power led starts blinking at a faster pace.
+    - Assign static IP to PC 192.168.1.XXX/24
+    - Telnet or SSH to 192.168.1.1
+    - SCP a sysupgrade.tar firmware file to /tmp
+    - On terminal
+     ```
+      mount_root
+      sysupgrade -n -v /tmp/sysupgrade.tar
+      ```
   
 1. If something goes south, use [nmrpflash](https://github.com/jclehner/nmrpflash) for brick recovery.
 2. Obtain router default firmware from [Netgear Support](https://www.netgear.com/support/product/R6220#download).
@@ -47,4 +51,5 @@ sysupgrade -v /tmp/***-sysupgrade.tar
 
 
 
-*The builds will be updated every month/on-request. Request support for customised builds. If you're having trouble, create an issue on GitHub, or request for support [here](mailto:jayanta.gogoi525@gmail.com)*
+
+> *The builds will be updated every month/on-request. Request support for customised builds. If you're having trouble, create an issue on GitHub, or request for support [here](mailto:jayanta.gogoi525@gmail.com)*
