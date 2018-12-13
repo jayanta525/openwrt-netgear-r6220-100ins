@@ -2,7 +2,7 @@
 
 This is a modified ramips build for the netgear R6220-100INS.
 
-**Factory partition adjusted**, verify WAN interface MAC address with that printed on packaging.
+**Factory partition adjusted to <2da0000>**, verify WAN interface MAC address with that printed on packaging.
 
 The package selection and configuration was intended for personal/home use and is overall lighter. This build includes LuCi interface with some useful luci-applications such as adblock, printer-server, samba, mwan3, sqm, etc.
 **Change branch for base builds.**
