@@ -1,17 +1,18 @@
 # Netgear R6220-100INS AC1200 OpenWrt Firmware
+**Factory partition: <0x2da0000>**
 
-This is a modified ramips build for the netgear R6220-100INS.
+This is a modified ramips build for the netgear R6220.
 
-**Factory partition adjusted to <2da0000>**, verify WAN interface MAC address with that printed on packaging.
+**Factory partition adjusted to <0x2da0000>**, verify WAN interface MAC address with that printed on packaging.
 
 **If your R6220 is still unable to read the correct MAC address, try this [build](https://github.com/jayanta525/openwrt-netgear-r6220-0x2de0000).**
 
-**If the issue persists, try original builds from [OpenWrt](https://openwrt.org/downloads).**
+**If the issue persists, try original builds from [OpenWrt](https://downloads.openwrt.org/snapshots/targets/ramips/mt7621/).**
 
 The package selection and configuration was intended for personal/home use and is overall lighter. This build includes LuCi interface with some useful luci-applications such as adblock, printer-server, samba, mwan3, sqm, etc.
 **Change branch for base builds.**
 
-**[Note: This model of R6220 is the 100INS which is currently being sold on Amazon India, please verify the model name printed on the packaging before proceeding with installation]**
+**[Please note that, once you're using a modified OpenWrt build, packages with kernel dependencies can't be installed using opkg. Request for new builds or ipk files for manual installation]**
 
 ## Install Instructions:
   1. Enable debug mode: ```http://<router_ip>/setup.cgi?todo=debug   [usually 192.168.1.1]```
