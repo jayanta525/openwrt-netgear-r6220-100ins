@@ -1,0 +1,602 @@
+Package: adblock
+Version: 3.6.5-1
+Depends: libc, jshn, jsonfilter
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 12931
+Filename: adblock_3.6.5-1_all.ipk
+Size: 13909
+SHA256sum: 4cabc61e94a6ddae3ad42c56327d58af7882e6505b7307771cd39d6d10d69fb2
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named, kresd or dnscrypt-proxy.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: aria2
+Version: 1.34.0-6
+Depends: libc, zlib, libstdcpp6, libopenssl1.1
+License: GPLv2
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 612276
+Filename: aria2_1.34.0-6_mipsel_24kc.ipk
+Size: 611635
+SHA256sum: 3c23584bad75ea22126c67dece09d58339490ad073908c2e26ed3eac01b08212
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: collectd-mod-cpu
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 4671
+Filename: collectd-mod-cpu_5.8.1-6_mipsel_24kc.ipk
+Size: 5407
+SHA256sum: f1d26c51cfa942c267ce4702c45d3210ccdab6a4e036e5ce775b6c05c187546f
+Description:  CPU input plugin
+
+Package: collectd-mod-interface
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 3632
+Filename: collectd-mod-interface_5.8.1-6_mipsel_24kc.ipk
+Size: 4375
+SHA256sum: f97d58cba06bc103f1110da9323c4a1c31ddbc29094f5c46df921c87d3bc1fe7
+Description:  network interfaces input plugin
+
+Package: collectd-mod-irq
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 3462
+Filename: collectd-mod-irq_5.8.1-6_mipsel_24kc.ipk
+Size: 4197
+SHA256sum: 22e3074a0f49adc96d6b178708811573d714ded8753a13db7e439a1746deb9a3
+Description:  interrupt usage input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.8.1-6
+Depends: libc, collectd, libiwinfo20181126
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 3717
+Filename: collectd-mod-iwinfo_5.8.1-6_mipsel_24kc.ipk
+Size: 4470
+SHA256sum: 675da787bdcfc72f2fe502183ae6ebc4c6dad9a5621000666958ecf40d78dea2
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 2204
+Filename: collectd-mod-load_5.8.1-6_mipsel_24kc.ipk
+Size: 2929
+SHA256sum: 0c394e4b7068c29063c487e06dfbe877bcc6d7b5a1cbfe44a95607c34c164bbb
+Description:  system load input plugin
+
+Package: collectd-mod-memory
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 2865
+Filename: collectd-mod-memory_5.8.1-6_mipsel_24kc.ipk
+Size: 3612
+SHA256sum: 318047fe05bcfd7c04406cd79260c53ea8547a5a98c705c89fd66e274fac1299
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 14776
+Filename: collectd-mod-network_5.8.1-6_mipsel_24kc.ipk
+Size: 15492
+SHA256sum: b41a13e4d3d711131352490e83fd0c055ac82c884230c707e160bdb9cea8fb77
+Description:  network input/output plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.8.1-6
+Depends: libc, collectd, librrd1
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 12028
+Filename: collectd-mod-rrdtool_5.8.1-6_mipsel_24kc.ipk
+Size: 12750
+SHA256sum: 94a37f667c26a370b46dc72f6bd7492eb4c6d5e859af2ef3469309e4ec369031
+Description:  RRDtool output plugin
+
+Package: collectd-mod-sensors
+Version: 5.8.1-6
+Depends: libc, collectd, libsensors5
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 4112
+Filename: collectd-mod-sensors_5.8.1-6_mipsel_24kc.ipk
+Size: 4842
+SHA256sum: 55b8097b3c3cb556966025b8b51143fed272977d879b112a2657f5e28b465df0
+Description:  lm_sensors input plugin
+
+Package: collectd-mod-thermal
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 4236
+Filename: collectd-mod-thermal_5.8.1-6_mipsel_24kc.ipk
+Size: 4976
+SHA256sum: 5458212f8d68582d2bdba526eed7ba5d6d38f41fc5c90f65d1d1d0f8b6958a41
+Description:  system temperatures input plugin
+
+Package: collectd-mod-wireless
+Version: 5.8.1-6
+Depends: libc, collectd
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 2518
+Filename: collectd-mod-wireless_5.8.1-6_mipsel_24kc.ipk
+Size: 3253
+SHA256sum: b2a60f389318b6bad2b1b86ad1739d24247436024d19561530255e7c727db278
+Description:  wireless status input plugin
+
+Package: collectd
+Version: 5.8.1-6
+Depends: libc, libpthread, zlib, libltdl7, libip4tc0, jshn
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 86246
+Filename: collectd_5.8.1-6_mipsel_24kc.ipk
+Size: 87082
+SHA256sum: e3394f62901da8809c1ddc737c06f6551c2b3a5886af76f6d86f5630f1b8daf0
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: ddns-scripts
+Version: 2.7.8-8
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14947
+Filename: ddns-scripts_2.7.8-8_all.ipk
+Size: 16012
+SHA256sum: 33a6c31d3d0cbf64e6b5f6a3632b66289287af9f13e3e717b0b4ab1d534ada99
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4870
+Filename: etherwake_1.09-4_mipsel_24kc.ipk
+Size: 5787
+SHA256sum: b2aac5d89a216e30b0e268898284cba85b61a3d8177a2c4dfafdb5cfa3b48204
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 4387
+Filename: hd-idle_1.05-2_mipsel_24kc.ipk
+Size: 5183
+SHA256sum: 5c6caf6150e5b0b4c90a85339c45798551cb7727e500e792136e8633a7f23148
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: irqbalance
+Version: 1.2.0-2
+Depends: libc
+License: GPLv2
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 14756
+Filename: irqbalance_1.2.0-2_mipsel_24kc.ipk
+Size: 15519
+SHA256sum: ebef754fb05a692cce3e98e85651169962e43f9df503023552814b48f691ed5b
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 60326
+Filename: libexif_0.6.21-1_mipsel_24kc.ipk
+Size: 60588
+SHA256sum: 999cd8ebdc59b9af7e85494df9fbcc36b38203535ee95f1869989e4d5d99f1f0
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libffmpeg-audio-dec
+Version: 3.4.6-1
+Depends: libc, libpthread, libpthread, zlib, libbz2-1.0
+Provides: libffmpeg
+License: LGPL-2.1+ GPL-2+ LGPL-3
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 783666
+Filename: libffmpeg-audio-dec_3.4.6-1_mipsel_24kc.ipk
+Size: 782667
+SHA256sum: 2e541a6737b1b6a96d5f7b892d273d907219220215a13871af1b881566307794
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains FFmpeg shared libraries for audio decoding
+
+Package: libflac
+Version: 1.3.2-2
+Depends: libc
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 75419
+Filename: libflac_1.3.2-2_mipsel_24kc.ipk
+Size: 76260
+SHA256sum: bde129a985ed9a74698e354efaa50a953dc55ec15d2140753762be8b85dcf524
+Description:  Free Lossless Audio Codec library
+
+Package: libgd
+Version: 2.2.5-1
+Depends: libc, libjpeg, libpng
+License: MIT
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 92720
+Filename: libgd_2.2.5-1_mipsel_24kc.ipk
+Size: 92256
+SHA256sum: 104f26fa040b6c9ba64d9a8e485346be096c5ca08494a4aa6b5026a7f45f0d67
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+License: GPL-2
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 22865
+Filename: libid3tag_0.15.1b-4_mipsel_24kc.ipk
+Size: 23520
+SHA256sum: a59d1d77695322ac437da11ddd557a5c2956ca42fbad1c0243ed5fbe53786b71
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg
+Version: 9c-2
+Depends: libc
+License: IJG
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 90133
+Filename: libjpeg_9c-2_mipsel_24kc.ipk
+Size: 90976
+SHA256sum: 8ba6b10294a9dfda98acc6691a0882cf793ba93cc23e9220e67d321aa8347441
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libogg
+Version: 1.3.3-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 8249
+Filename: libogg_1.3.3-1_mipsel_24kc.ipk
+Size: 9189
+SHA256sum: 2364231450c5b94234aad37f070ffcb7e3f6beb6fb8a3742e4f2e4623bd41c9c
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libpng
+Version: 1.6.37-1
+Depends: libc, zlib
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 81308
+Filename: libpng_1.6.37-1_mipsel_24kc.ipk
+Size: 82150
+SHA256sum: 87b1eb6f643bfe39671f57a6f6124aef7cef39bfa107737585fee62eb2f5102c
+Description:  A PNG format files handling library
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 129105
+Filename: librrd1_1.0.50-2_mipsel_24kc.ipk
+Size: 130125
+SHA256sum: af496e34706634cffc4547908231b68732a15a8b5f1d7c6b3ee6d540bb098caa
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: libsensors5
+Version: 3.5.0-2
+Depends: libc, sysfsutils
+Provides: libsensors
+License: GPL-2.0+ LGPL-2.1+
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 55264
+Filename: libsensors5_3.5.0-2_mipsel_24kc.ipk
+Size: 55863
+SHA256sum: 52754c4efe2ecbc5d34881c37a77359ace1cdd70048c6412c3d5245969cfa29b
+Description:  lm-sensors libraries
+
+Package: libsqlite3
+Version: 3270200-2
+Depends: libc, libpthread, zlib
+License: PUBLICDOMAIN
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 442135
+Filename: libsqlite3_3270200-2_mipsel_24kc.ipk
+Size: 442662
+SHA256sum: ca18a81908fe1d86f4db44ccffb69f4021ca5f40ff60e780486f55ac9788a899
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libunbound
+Version: 1.9.1-4
+Depends: libc, libopenssl1.1
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 632537
+Filename: libunbound_1.9.1-4_mipsel_24kc.ipk
+Size: 625426
+SHA256sum: 1733986a5c739f27805c2ddaef42b7cd9e3237f7b03f47436504b288e1b80860
+Description:  This package contains the Unbound shared library with basic includes
+ necessary to meet the needs of UCI/LuCI configuration optoins.
+
+Package: libvorbis
+Version: 1.3.6-1
+Depends: libc, libogg
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 190062
+Filename: libvorbis_1.3.6-1_mipsel_24kc.ipk
+Size: 189799
+SHA256sum: 3fbacb64f18bb33f5e13ed93ed06c07e647164493e0a3e3db5e82b7f0fc2414f
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: luci-app-sqm
+Version: 1.3.0-1
+Depends: libc, lua, luci-base, sqm-scripts
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4018
+Filename: luci-app-sqm_1.3.0-1_all.ipk
+Size: 4980
+SHA256sum: b877961b729ebcef8d4f61f9c6a8b300595aa31953031b9ee6ea0b6c186515bd
+Description:  Luci interface for the SQM scripts queue management configuration package.
+
+Package: minidlna
+Version: 2018-04-10-799e6cf5-1
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid1
+License: GPL-2.0 BSD-3-Clause
+Section: multimedia
+Architecture: mipsel_24kc
+Installed-Size: 113317
+Filename: minidlna_2018-04-10-799e6cf5-1_mipsel_24kc.ipk
+Size: 114117
+SHA256sum: 9a3f0643556a6af12c065efbc20cea5f7c05544360a567eacea68afd3ddd6909
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpd
+Version: 2.1.20190408-2
+Depends: libc, iptables, libip4tc0, libip6tc0, ip6tables, libuuid1
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 55380
+Filename: miniupnpd_2.1.20190408-2_mipsel_24kc.ipk
+Size: 56238
+SHA256sum: 31495406a26dc2e87b7d4de0e12883f599b23a6b87d616f1a7f542eac9e6d154
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: mwan3
+Version: 2.7.12-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 12534
+Filename: mwan3_2.7.12-1_all.ipk
+Size: 13543
+SHA256sum: 96c0f7bcdfdf6ad949f1b1633d3b5cf810e9fc20dac77a81a222212243369379
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nano
+Version: 4.2-1
+Depends: libc, libncurses6
+License: GPL-3.0+
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 57484
+Filename: nano_4.2-1_mipsel_24kc.ipk
+Size: 58373
+SHA256sum: e06455c63e94bd4ff1ccd9be84e74d9d9dfeb08088c6ec766ac701d2d0f4a722
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: nlbwmon
+Version: 2017-12-05-75accd64-2
+Depends: libc, libubox20170601, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 15860
+Filename: nlbwmon_2017-12-05-75accd64-2_mipsel_24kc.ipk
+Size: 16670
+SHA256sum: 7d3c2461e06331577c3721825f02537ba1618f5039f2964326c948103c9f9934
+Description:  LEDE Traffic Usage Monitor
+
+Package: p910nd
+Version: 0.97-7
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 5688
+Filename: p910nd_0.97-7_mipsel_24kc.ipk
+Size: 6627
+SHA256sum: beb778a3690e3404a0daabfd954c6ff10e600000382946050ebf09f0e6108e7e
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 10459
+Filename: rrdtool1_1.0.50-2_mipsel_24kc.ipk
+Size: 11600
+SHA256sum: eeda3f89e87378ef0c8f4b797bb9848dc275d5c46ce8c4bd6121a9701ee2d645
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: screen
+Version: 4.6.2-2
+Depends: libc, libncurses6
+License: GPL-3.0+
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 152542
+Filename: screen_4.6.2-2_mipsel_24kc.ipk
+Size: 153375
+SHA256sum: 345a71a1e05111004b32d680db5b784b8c6bca6a3107f601c7623ff2f9cac1f6
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+
+Package: sqm-scripts
+Version: 1.3.0-1
+Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 16006
+Filename: sqm-scripts_1.3.0-1_all.ipk
+Size: 16813
+SHA256sum: 4f3f2f23fb1be9ca40d527e652f6a144d515946ba7f0b64b26afd3a588f47d2f
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: unbound-daemon
+Version: 1.9.1-4
+Depends: libc, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 115073
+Filename: unbound-daemon_1.9.1-4_mipsel_24kc.ipk
+Size: 115561
+SHA256sum: e6be5e5cb975b5de06060701ab198b8fa2c2e6dda80adeec873cb7ea52ec63ae
+Description:  This package contains the Unbound daemon with basic includes
+ necessary to meet the needs of UCI/LuCI configuration optoins.
+
+Package: vnstat
+Version: 1.18-2
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 68092
+Filename: vnstat_1.18-2_mipsel_24kc.ipk
+Size: 69098
+SHA256sum: 34d7e50a0574cf9b68a6ff6905de39f89144f26e7641d045b4d9d13d6566897e
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.18-2
+Depends: libc, vnstat, libgd
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 30941
+Filename: vnstati_1.18-2_mipsel_24kc.ipk
+Size: 31792
+SHA256sum: b32c3d5e386fc77aba0de82627cc43c2829c89f60f1629c2040e6ec8cafbe139
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: watchcat
+Version: 1-7
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: all
+Installed-Size: 2168
+Filename: watchcat_1-7_all.ipk
+Size: 2956
+SHA256sum: a78db16c7f8fe6945dc2ea0ddbf00363b6b40edcf878c08ed17564eaa84fa440
+Description:  Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.
+
