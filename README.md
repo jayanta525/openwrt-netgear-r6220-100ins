@@ -1,4 +1,4 @@
-# CURRENTLY BROKEN, WILL FIX IT LATER
+# FIXED, will work on both flash models
 # Netgear R6220-100INS AC1200 OpenWrt Firmware
 **Factory partition: <0x2da0000>**
 

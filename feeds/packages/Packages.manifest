@@ -9,8 +9,8 @@ Maintainer: Dirk Brenken <dev@brenken.org>
 Architecture: all
 Installed-Size: 12931
 Filename: adblock_3.6.5-1_all.ipk
-Size: 13909
-SHA256sum: 4cabc61e94a6ddae3ad42c56327d58af7882e6505b7307771cd39d6d10d69fb2
+Size: 13908
+SHA256sum: e922c15778f7d151d17c2ed843f235a4235d99f30ddb238edcb9ce44e7b5e80d
 Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named, kresd or dnscrypt-proxy.
  The script supports many domain blacklist sites plus manual black- and whitelist overrides.
  Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
@@ -27,12 +27,57 @@ Section: net
 Require-User: aria2=6800:aria2=6800
 Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 612276
+Installed-Size: 612281
 Filename: aria2_1.34.0-6_mipsel_24kc.ipk
-Size: 611635
-SHA256sum: 3c23584bad75ea22126c67dece09d58339490ad073908c2e26ed3eac01b08212
+Size: 611645
+SHA256sum: 2432cc3a567222a3cdced2b68063974165a3ed2a4ae3bd1472fa497ecc4a8eb1
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
+
+Package: attr
+Version: 2.4.48-1
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 10839
+Filename: attr_2.4.48-1_mipsel_24kc.ipk
+Size: 11634
+SHA256sum: b7b0c3976cec69c48cd7b2eeabd49135788789d8160766d11f4c23929c7ef36d
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: avahi-dbus-daemon
+Version: 0.7-3
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+SourceName: avahi-dbus-daemon
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 34879
+Filename: avahi-dbus-daemon_0.7-3_mipsel_24kc.ipk
+Size: 35935
+SHA256sum: 0b341e4cde8af789865d0de39cb4767c177b7a39c214ae5f29462ebb9e9ba4dc
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
 
 Package: collectd-mod-cpu
 Version: 5.8.1-6
@@ -42,10 +87,10 @@ SourceName: collectd-mod-cpu
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 4671
+Installed-Size: 4674
 Filename: collectd-mod-cpu_5.8.1-6_mipsel_24kc.ipk
-Size: 5407
-SHA256sum: f1d26c51cfa942c267ce4702c45d3210ccdab6a4e036e5ce775b6c05c187546f
+Size: 5413
+SHA256sum: c0b4a28a1a648bb306a77f9c76963a2d857ede39de56e24f80efc7da86e57cd9
 Description:  CPU input plugin
 
 Package: collectd-mod-interface
@@ -56,10 +101,10 @@ SourceName: collectd-mod-interface
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 3632
+Installed-Size: 3631
 Filename: collectd-mod-interface_5.8.1-6_mipsel_24kc.ipk
-Size: 4375
-SHA256sum: f97d58cba06bc103f1110da9323c4a1c31ddbc29094f5c46df921c87d3bc1fe7
+Size: 4373
+SHA256sum: f278bf0bc6c5be101d498431d150ffe4c09e68cc2cf6fd225c338bf3877ba0ff
 Description:  network interfaces input plugin
 
 Package: collectd-mod-irq
@@ -84,10 +129,10 @@ SourceName: collectd-mod-iwinfo
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 3717
+Installed-Size: 3721
 Filename: collectd-mod-iwinfo_5.8.1-6_mipsel_24kc.ipk
-Size: 4470
-SHA256sum: 675da787bdcfc72f2fe502183ae6ebc4c6dad9a5621000666958ecf40d78dea2
+Size: 4476
+SHA256sum: 7f262d2336ca2cf108741e83834da79bb299ae5500c31c5d5ca407a727108052
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -98,10 +143,10 @@ SourceName: collectd-mod-load
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 2204
+Installed-Size: 2206
 Filename: collectd-mod-load_5.8.1-6_mipsel_24kc.ipk
 Size: 2929
-SHA256sum: 0c394e4b7068c29063c487e06dfbe877bcc6d7b5a1cbfe44a95607c34c164bbb
+SHA256sum: ffc41482e90e093291907956b9772c3ab1db233fd6e8c0b247c9283a79741ac3
 Description:  system load input plugin
 
 Package: collectd-mod-memory
@@ -112,10 +157,10 @@ SourceName: collectd-mod-memory
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 2865
+Installed-Size: 2867
 Filename: collectd-mod-memory_5.8.1-6_mipsel_24kc.ipk
-Size: 3612
-SHA256sum: 318047fe05bcfd7c04406cd79260c53ea8547a5a98c705c89fd66e274fac1299
+Size: 3616
+SHA256sum: 46f03146cc5fa1fe7c29b7c3ecc0f16db87eafa11a5152d73d23e0b9e4ee23fc
 Description:  physical memory usage input plugin
 
 Package: collectd-mod-network
@@ -126,10 +171,10 @@ SourceName: collectd-mod-network
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 14776
+Installed-Size: 14777
 Filename: collectd-mod-network_5.8.1-6_mipsel_24kc.ipk
-Size: 15492
-SHA256sum: b41a13e4d3d711131352490e83fd0c055ac82c884230c707e160bdb9cea8fb77
+Size: 15502
+SHA256sum: 83e2768d1467b4417d13c80dfc055ab55f448d6118f77598ad2d5e7e025d64aa
 Description:  network input/output plugin
 
 Package: collectd-mod-rrdtool
@@ -140,10 +185,10 @@ SourceName: collectd-mod-rrdtool
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 12028
+Installed-Size: 12031
 Filename: collectd-mod-rrdtool_5.8.1-6_mipsel_24kc.ipk
-Size: 12750
-SHA256sum: 94a37f667c26a370b46dc72f6bd7492eb4c6d5e859af2ef3469309e4ec369031
+Size: 12755
+SHA256sum: 1a711c491f07b373912a6d746dfe4c0af7902218cf3e69690a060d36a117b586
 Description:  RRDtool output plugin
 
 Package: collectd-mod-sensors
@@ -196,12 +241,26 @@ SourceName: collectd
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 86246
+Installed-Size: 86249
 Filename: collectd_5.8.1-6_mipsel_24kc.ipk
 Size: 87082
-SHA256sum: e3394f62901da8809c1ddc737c06f6551c2b3a5886af76f6d86f5630f1b8daf0
+SHA256sum: 7fe9acbcc89758ca74701842047323f782a3007b7441a15037d69b120ab79c63
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
+
+Package: dbus
+Version: 1.12.12-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 86822
+Filename: dbus_1.12.12-1_mipsel_24kc.ipk
+Size: 87390
+SHA256sum: 69e038f3405439e5b3b9558d34d26499fa8091ad3a92c9e5bea39e8226494ae6
+Description:  Simple interprocess messaging system (daemon)
 
 Package: ddns-scripts
 Version: 2.7.8-8
@@ -243,10 +302,10 @@ License: GPL-2.0
 Section: utils
 Maintainer: Lim Guo Wei <limguowei@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 4387
+Installed-Size: 4388
 Filename: hd-idle_1.05-2_mipsel_24kc.ipk
-Size: 5183
-SHA256sum: 5c6caf6150e5b0b4c90a85339c45798551cb7727e500e792136e8633a7f23148
+Size: 5186
+SHA256sum: 619294423b97fab4f962f6c4bf890c01dfca9a3f110832f02b46ce272e9f7cbc
 Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
 
 Package: irqbalance
@@ -266,6 +325,125 @@ Description:  The purpose of irqbalance is to distribute hardware interrupts acr
  processors/cores on a multiprocessor/multicore system in order to
  increase performance.
 
+Package: libattr
+Version: 2.4.48-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5757
+Filename: libattr_2.4.48-1_mipsel_24kc.ipk
+Size: 6533
+SHA256sum: 19260e73a92b0196bba733441dfe7e277210f4b15d9a9fd56e99c9e1c4c08051
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.7-3
+Depends: libc, avahi-dbus-daemon
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-client
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 15837
+Filename: libavahi-client_0.7-3_mipsel_24kc.ipk
+Size: 16884
+SHA256sum: 44daa57f659d7f51e7c018b38a42fef02003369181591fd97fde512b9b753413
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.7-3
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-dbus-support
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 62769
+Filename: libavahi-dbus-support_0.7-3_mipsel_24kc.ipk
+Size: 64111
+SHA256sum: 21bab7c89162cc25ac75c05a055ea01dac6d91de1c426574098f88ce504f99a9
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 7548
+Filename: libdaemon_0.14-5_mipsel_24kc.ipk
+Size: 8636
+SHA256sum: af98e43d6f76a5b0e822556dfb6b29bbabe6d7aee6b3b689d40f793becfe4de1
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.12.12-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 100895
+Filename: libdbus_1.12.12-1_mipsel_24kc.ipk
+Size: 101778
+SHA256sum: 1af2c8423cca0d60ca5771aac12b0a5fe512e7e342f4996fa613fc63d9cc6678
+Description:  Simple interprocess messaging system (library)
+
 Package: libexif
 Version: 0.6.21-1
 Depends: libc
@@ -276,13 +454,29 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: mipsel_24kc
-Installed-Size: 60326
+Installed-Size: 60324
 Filename: libexif_0.6.21-1_mipsel_24kc.ipk
-Size: 60588
-SHA256sum: 999cd8ebdc59b9af7e85494df9fbcc36b38203535ee95f1869989e4d5d99f1f0
+Size: 60591
+SHA256sum: e73e38a59496762ea6045ea07ddb43ef296ba24e2f8c6a6213e8f900a65d4dc7
 Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
  intended to replace lots of redundant implementations in command-line
  utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.2.6-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>, Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 47162
+Filename: libexpat_2.2.6-1_mipsel_24kc.ipk
+Size: 47966
+SHA256sum: 473b0cfe4a463902f9c29f11a40645f318f40ab1c8d3d639c4107a4fd6b62a8c
+Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffmpeg-audio-dec
 Version: 3.4.6-1
@@ -295,10 +489,10 @@ LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>, Ian Leonard <antonlacon@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 783666
+Installed-Size: 783672
 Filename: libffmpeg-audio-dec_3.4.6-1_mipsel_24kc.ipk
-Size: 782667
-SHA256sum: 2e541a6737b1b6a96d5f7b892d273d907219220215a13871af1b881566307794
+Size: 782630
+SHA256sum: 3acc67ea2de8fbac021a9a1c71cf3d194b1c8ff460b1af9de2fb95777b06db5a
 Description:  FFmpeg is a a software package that can record, convert and stream digital
  audio and video in numerous formats.
  
@@ -318,10 +512,10 @@ LicenseFiles: README COPYING.FDL COPYING.GPL COPYING.LGPL COPYING.Xiph
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
-Installed-Size: 75419
+Installed-Size: 75422
 Filename: libflac_1.3.2-2_mipsel_24kc.ipk
-Size: 76260
-SHA256sum: bde129a985ed9a74698e354efaa50a953dc55ec15d2140753762be8b85dcf524
+Size: 76273
+SHA256sum: ebbc30210e6c98aae405c8759c26d0049f187135be4cd2b70f7a853796efb7aa
 Description:  Free Lossless Audio Codec library
 
 Package: libgd
@@ -333,10 +527,10 @@ License: MIT
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 92720
+Installed-Size: 92719
 Filename: libgd_2.2.5-1_mipsel_24kc.ipk
-Size: 92256
-SHA256sum: 104f26fa040b6c9ba64d9a8e485346be096c5ca08494a4aa6b5026a7f45f0d67
+Size: 92243
+SHA256sum: b63aa998638e3c6d3eb5978bce703225031cb14a062a24c73590a52b1e72b79f
 Description:  GD is an open source code library for the dynamic creation of images by
  programmers. GD creates PNG, JPEG and GIF images, among other formats.
 
@@ -350,10 +544,10 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
-Installed-Size: 22865
+Installed-Size: 22866
 Filename: libid3tag_0.15.1b-4_mipsel_24kc.ipk
-Size: 23520
-SHA256sum: a59d1d77695322ac437da11ddd557a5c2956ca42fbad1c0243ed5fbe53786b71
+Size: 23526
+SHA256sum: 0b08a27a17f639e407a71325549d0c5da2ae4eb9a98e15610a7dccad8f9cdfec
 Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
  ID3v1 and the various versions of ID3v2.
 
@@ -367,10 +561,10 @@ LicenseFiles: README
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 90133
+Installed-Size: 90132
 Filename: libjpeg_9c-2_mipsel_24kc.ipk
-Size: 90976
-SHA256sum: 8ba6b10294a9dfda98acc6691a0882cf793ba93cc23e9220e67d321aa8347441
+Size: 90978
+SHA256sum: 28eaff800a0ed66119f8fc73791dd0714605758e7751e7b1e45c24080d5da495
 Description:  The Independent JPEG Group's JPEG runtime library
 
 Package: libogg
@@ -385,8 +579,8 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
 Installed-Size: 8249
 Filename: libogg_1.3.3-1_mipsel_24kc.ipk
-Size: 9189
-SHA256sum: 2364231450c5b94234aad37f070ffcb7e3f6beb6fb8a3742e4f2e4623bd41c9c
+Size: 9184
+SHA256sum: 26ca84606bbb15d98a0404569c9a0ee2f8ec726d3c28273a2bb225824b3bf23a
 Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
  compressed bitstream into a more robust, useful form.  For example,
  the Ogg bitstream makes seeking, time stamping and error recovery
@@ -402,10 +596,10 @@ License: Libpng GPL-2.0+ BSD-3-Clause
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 81308
+Installed-Size: 81310
 Filename: libpng_1.6.37-1_mipsel_24kc.ipk
-Size: 82150
-SHA256sum: 87b1eb6f643bfe39671f57a6f6124aef7cef39bfa107737585fee62eb2f5102c
+Size: 82154
+SHA256sum: 7c64b66498f55cfcc47e78ebb22d203ef151750fa9dcb0e51ac2fc64373af6e9
 Description:  A PNG format files handling library
 
 Package: librrd1
@@ -416,10 +610,10 @@ SourceName: librrd1
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 129105
+Installed-Size: 129106
 Filename: librrd1_1.0.50-2_mipsel_24kc.ipk
-Size: 130125
-SHA256sum: af496e34706634cffc4547908231b68732a15a8b5f1d7c6b3ee6d540bb098caa
+Size: 130146
+SHA256sum: a49b93e6ab4a97d68b1c0ddf3bc56f459bb87a292bef9e4551b2c8cb0c447fa7
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -458,14 +652,29 @@ License: PUBLICDOMAIN
 Section: libs
 Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
 Architecture: mipsel_24kc
-Installed-Size: 442135
+Installed-Size: 442137
 Filename: libsqlite3_3270200-2_mipsel_24kc.ipk
-Size: 442662
-SHA256sum: ca18a81908fe1d86f4db44ccffb69f4021ca5f40ff60e780486f55ac9788a899
+Size: 442666
+SHA256sum: 7de27b870ada060a7d678e17564c26ef3b35b721737a3bbff00854fd752ad76c
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
  programs.
+
+Package: libtirpc
+Version: 1.1.4-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/libtirpc
+SourceName: libtirpc
+License: BSD-3-Clause
+Section: libs
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 57811
+Filename: libtirpc_1.1.4-1_mipsel_24kc.ipk
+Size: 58690
+SHA256sum: 17e0aa167a374717819c8a377a8e5d4b5158307072dad6f29c1e59dc609960ed
+Description:  Library TI RPC for RPC bindings
 
 Package: libunbound
 Version: 1.9.1-4
@@ -495,10 +704,10 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
-Installed-Size: 190062
+Installed-Size: 190063
 Filename: libvorbis_1.3.6-1_mipsel_24kc.ipk
-Size: 189799
-SHA256sum: 3fbacb64f18bb33f5e13ed93ed06c07e647164493e0a3e3db5e82b7f0fc2414f
+Size: 189784
+SHA256sum: 7ccdced068b5cb6fa29bf88203b454fd08f2f338aa8b836718fd0bdea5b0b4d0
 Description:  Vorbis is a general purpose audio and music encoding format
  contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
  MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
@@ -519,8 +728,8 @@ Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
 Installed-Size: 4018
 Filename: luci-app-sqm_1.3.0-1_all.ipk
-Size: 4980
-SHA256sum: b877961b729ebcef8d4f61f9c6a8b300595aa31953031b9ee6ea0b6c186515bd
+Size: 4979
+SHA256sum: edc2a00531ce93b8567e9ab4f8f1ed22af27032730d4293fb328169d9ebfd638
 Description:  Luci interface for the SQM scripts queue management configuration package.
 
 Package: minidlna
@@ -534,10 +743,10 @@ Section: multimedia
 Require-User: minidlna:minidlna
 Maintainer: Knyazkov Dmitry <medavedik@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 113317
+Installed-Size: 113323
 Filename: minidlna_2018-04-10-799e6cf5-1_mipsel_24kc.ipk
-Size: 114117
-SHA256sum: 9a3f0643556a6af12c065efbc20cea5f7c05544360a567eacea68afd3ddd6909
+Size: 114173
+SHA256sum: fb9d47004727ae5950523f2492dd55a2ce8159bf1e11bddf0b56d3c4659bec13
 Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
  being fully compliant with DLNA/UPnP-AV clients.
 
@@ -550,10 +759,10 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 55380
+Installed-Size: 55381
 Filename: miniupnpd_2.1.20190408-2_mipsel_24kc.ipk
-Size: 56238
-SHA256sum: 31495406a26dc2e87b7d4de0e12883f599b23a6b87d616f1a7f542eac9e6d154
+Size: 56212
+SHA256sum: 09561284f1cc2060f02b1a55e320f58c29e7e01aa0a60de7f98ebb94056d4939
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mwan3
@@ -565,10 +774,10 @@ License: GPLv2
 Section: net
 Maintainer: Florian Eckert <fe@dev.tdt.de>
 Architecture: all
-Installed-Size: 12534
+Installed-Size: 12536
 Filename: mwan3_2.7.12-1_all.ipk
-Size: 13543
-SHA256sum: 96c0f7bcdfdf6ad949f1b1633d3b5cf810e9fc20dac77a81a222212243369379
+Size: 13541
+SHA256sum: f4a74e97640492763a86a0ff90be606be36d6c1c9fca2bc23ff5f133fb322800
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
  and manageable. With loadbalancing/failover support for up to 250 wan
  interfaces, connection tracking and an easy to manage traffic ruleset.
@@ -602,8 +811,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 15860
 Filename: nlbwmon_2017-12-05-75accd64-2_mipsel_24kc.ipk
-Size: 16670
-SHA256sum: 7d3c2461e06331577c3721825f02537ba1618f5039f2964326c948103c9f9934
+Size: 16678
+SHA256sum: d081ba87f3f20c1bdf3944959a3c3b292178d35f599ffaebb2340426927a1e4d
 Description:  LEDE Traffic Usage Monitor
 
 Package: p910nd
@@ -616,10 +825,10 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Philipp Kerling <pkerling@casix.org>
 Architecture: mipsel_24kc
-Installed-Size: 5688
+Installed-Size: 5689
 Filename: p910nd_0.97-7_mipsel_24kc.ipk
-Size: 6627
-SHA256sum: beb778a3690e3404a0daabfd954c6ff10e600000382946050ebf09f0e6108e7e
+Size: 6629
+SHA256sum: ded25574fad17477bdfdb4530c8aa98d78ad0261a7d9b9804e9a674640163c98
 Description:  p910nd is a small daemon that copies any data received on
  the port it is listening on to the corresponding printer
  port. It is primarily intended for diskless Linux hosts
@@ -636,10 +845,10 @@ SourceName: rrdtool1
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 10459
+Installed-Size: 10456
 Filename: rrdtool1_1.0.50-2_mipsel_24kc.ipk
 Size: 11600
-SHA256sum: eeda3f89e87378ef0c8f4b797bb9848dc275d5c46ce8c4bd6121a9701ee2d645
+SHA256sum: 132def30c8f51c39481b4d881a40912c1859a2bebd45a98c50fb88d7908a9d79
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -652,6 +861,41 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  librrd.so. The library is much smaller compared to the 1.2.x version with
  separate dynamic linked libraries.
  This package contains command line tools used to manage RRDs.
+
+Package: samba4-libs
+Version: 4.9.8-1
+Depends: libc, zlib, libtirpc, libpopt0, libcomerr0, libpthread, libnettle6, dbus, libavahi-client, attr, libavahi-client
+Source: feeds/packages/net/samba4
+SourceName: samba4-libs
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5381236
+Filename: samba4-libs_4.9.8-1_mipsel_24kc.ipk
+Size: 5330513
+SHA256sum: ee275e360ea0b1215db3111b4bcfb45118f753ff9ceac9db29229388c5b8b124
+Description:  Samba 4.9.8 libs
+
+Package: samba4-server
+Version: 4.9.8-1
+Depends: libc, samba4-libs
+Source: feeds/packages/net/samba4
+SourceName: samba4-server
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 134080
+Filename: samba4-server_4.9.8-1_mipsel_24kc.ipk
+Size: 134901
+SHA256sum: 8d3d7684446385bb23173477c065ccdb4fa1ee718cb6cb7f88ffaef21a394faa
+Description:  installs: smbd, nmbd (daemon) smbpasswd pdbedit testparm
+ 
+ This provides the basic fileserver service and is the minimum needed to serve file shares.
+ HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
 
 Package: screen
 Version: 4.6.2-2
@@ -679,10 +923,10 @@ License: GPLv2
 Section: net
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
-Installed-Size: 16006
+Installed-Size: 16005
 Filename: sqm-scripts_1.3.0-1_all.ipk
-Size: 16813
-SHA256sum: 4f3f2f23fb1be9ca40d527e652f6a144d515946ba7f0b64b26afd3a588f47d2f
+Size: 16817
+SHA256sum: 438db81ef89e42a438a60b6fc24c098f33d0338019483a18143a332fd067d298
 Description:  A set of scripts that does simple SQM configuration.
 
 Package: unbound-daemon
@@ -711,10 +955,10 @@ SourceName: vnstat
 Section: net
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 68092
+Installed-Size: 68091
 Filename: vnstat_1.18-2_mipsel_24kc.ipk
-Size: 69098
-SHA256sum: 34d7e50a0574cf9b68a6ff6905de39f89144f26e7641d045b4d9d13d6566897e
+Size: 69100
+SHA256sum: 2e1834760bf8f9eac5af85d80b66fa98e46036d81451a61c5b0202a321ebee92
 Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
  network traffic for the selected interface(s). vnStat isn't a packet
  sniffer. The traffic information is analyzed from the /proc -filesystem,
@@ -728,10 +972,10 @@ SourceName: vnstati
 Section: net
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 30941
+Installed-Size: 30940
 Filename: vnstati_1.18-2_mipsel_24kc.ipk
-Size: 31792
-SHA256sum: b32c3d5e386fc77aba0de82627cc43c2829c89f60f1629c2040e6ec8cafbe139
+Size: 31781
+SHA256sum: 854fe774bed09309b0ad455e25eeb81d18828e6737777c1d4c6111c3e7b98c0b
 Description:  The purpose of vnstati is to provide image output support for statistics
  collected using vnstat(1). However, the image file format is limited to
  png. All basic outputs of vnStat are supported excluding live traffic
@@ -747,9 +991,30 @@ License: GPL-2.0
 Section: utils
 Maintainer: Roger D <rogerdammit@gmail.com>
 Architecture: all
-Installed-Size: 2168
+Installed-Size: 2167
 Filename: watchcat_1-7_all.ipk
-Size: 2956
-SHA256sum: a78db16c7f8fe6945dc2ea0ddbf00363b6b40edcf878c08ed17564eaa84fa440
+Size: 2952
+SHA256sum: ed4e8b15b6e50862431337aea31755cfc30629dfa099cf065e1f1fdaddf6f632
 Description:  Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.
+
+Package: wsdd2
+Version: 2018-07-24-2c31ba3b-3
+Depends: libc
+Source: feeds/packages/net/wsdd2
+SourceName: wsdd2
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 13349
+Filename: wsdd2_2018-07-24-2c31ba3b-3_mipsel_24kc.ipk
+Size: 14271
+SHA256sum: 46109964b17d46dea73d77e5da1f1a53f1955a2c4e0e27a572e8da2cb9436a8d
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
 

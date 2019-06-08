@@ -10,8 +10,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 3469
 Filename: liblucihttp-lua_2019-01-24-1afbdcc3-1_mipsel_24kc.ipk
-Size: 4237
-SHA256sum: 06c6c3bea7c358fa81fad79affb6aee7415e22afb2f90c3ae5f343f7b7f306a1
+Size: 4238
+SHA256sum: 1e30540a95e0a6482244380e45abf8291e4543d7f811f8457ada6ce90f067e24
 Description:  Lua binding for the LuCI HTTP utility library
 
 Package: liblucihttp0
@@ -25,10 +25,10 @@ LicenseFiles: LICENSE
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 6548
+Installed-Size: 6547
 Filename: liblucihttp0_2019-01-24-1afbdcc3-1_mipsel_24kc.ipk
-Size: 7345
-SHA256sum: e2570834447d68fd32e36b09d0c1d2d8b7bbdf89cd36e65723043ed967c50ad0
+Size: 7340
+SHA256sum: 4cb5d9755be2f11ccb5c5a1fdfdf19eb538cb575150af2ff18e6b448ee7bd9b3
 Description:  LuCI HTTP utility library
 
 Package: luci-app-adblock
@@ -38,10 +38,10 @@ Source: feeds/luci/applications/luci-app-adblock
 SourceName: luci-app-adblock
 Section: luci
 Architecture: all
-Installed-Size: 10087
+Installed-Size: 10089
 Filename: luci-app-adblock_git-19.149.33019-889e8ee-1_all.ipk
-Size: 10895
-SHA256sum: 39d407c15c89ab61ee8157ecc08703fc1c7518f198b124fb3155b857049c8e12
+Size: 10899
+SHA256sum: e8e4b4fc998a3f35a4356beefa191dcdd7cf31e1c6b52e55fd2c10fa3cb88f23
 Description:  LuCI support for Adblock
 
 Package: luci-app-aria2
@@ -55,8 +55,8 @@ Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
 Architecture: all
 Installed-Size: 4360
 Filename: luci-app-aria2_1.0.1-4_all.ipk
-Size: 5160
-SHA256sum: 8e833880ee3470fe49d2ab9f755a01c52d2fa1c65322a4251a7ec73538a5db5d
+Size: 5169
+SHA256sum: a211498fa30a3f47469f0aada99b36ba8ffe99fd488331752f306ea9b4ba73d2
 Description:  LuCI Support for Aria2
 
 Package: luci-app-commands
@@ -67,10 +67,10 @@ SourceName: luci-app-commands
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4832
+Installed-Size: 4831
 Filename: luci-app-commands_git-19.149.33019-889e8ee-1_all.ipk
-Size: 5528
-SHA256sum: 5555810857e7a0ad76a60874ef2a27a2dd115355063a32a3810b06a742e6b8e3
+Size: 5522
+SHA256sum: b0bb3d6f69cc30ad7f9501cb06b107951ff6f52a74442c5f7bc7ef8abc59425f
 Description:  LuCI Shell Command Module
 
 Package: luci-app-ddns
@@ -109,10 +109,10 @@ SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 10833
+Installed-Size: 10830
 Filename: luci-app-firewall_git-19.149.33019-889e8ee-1_all.ipk
-Size: 11561
-SHA256sum: 5506e9f58f211dba8b8f478e78a508a73306faf2fcdae6ed047b1d594eebbfea
+Size: 11565
+SHA256sum: 82973d8528ef716554f0184bce22721f77c2deb99dabecd0fafed3a8d5ed0905
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-hd-idle
@@ -124,8 +124,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1063
 Filename: luci-app-hd-idle_git-19.149.33019-889e8ee-1_all.ipk
-Size: 1867
-SHA256sum: f87006c9aa30ebf48ee9ef0986d84294f4dab01ed9ecdd1d85af17383a6b177e
+Size: 1869
+SHA256sum: 2d6262de8a8600b708204bc9e758fddad5385b3793f0b72a596552aee2cd55c5
 Description:  Hard Disk Idle Spin-Down module
 
 Package: luci-app-minidlna
@@ -137,8 +137,8 @@ Section: luci
 Architecture: all
 Installed-Size: 3250
 Filename: luci-app-minidlna_git-19.149.33019-889e8ee-1_all.ipk
-Size: 4046
-SHA256sum: f8c86b140abaa3eb4baed00fc899a89f6b03b89659840921cafc137752c2088e
+Size: 4048
+SHA256sum: 1060738ce0db0c3d024e9080c2c139f66a3c6f2889282d836b2ffd80c68a8961
 Description:  LuCI Support for miniDLNA
 
 Package: luci-app-mwan3
@@ -152,8 +152,8 @@ Maintainer: Aedan Renner <chipdankly@gmail.com> Florian Eckert <fe@dev.tdt.de>
 Architecture: all
 Installed-Size: 12023
 Filename: luci-app-mwan3_git-19.149.33019-889e8ee-1_all.ipk
-Size: 12936
-SHA256sum: 46f3cbd1936be8da25a2f8803998a0510598580ebb1ddde73a3bd58e7b5535a9
+Size: 12938
+SHA256sum: 50c796bbaa19b56c59cadf33e9c3314bbc7216e0fb7ee71ca9fe9c04491b027b
 Description:  LuCI support for the MWAN3 multiwan hotplug script
 
 Package: luci-app-nlbwmon
@@ -163,10 +163,10 @@ Source: feeds/luci/applications/luci-app-nlbwmon
 SourceName: luci-app-nlbwmon
 Section: luci
 Architecture: all
-Installed-Size: 21395
+Installed-Size: 21398
 Filename: luci-app-nlbwmon_git-19.149.33019-889e8ee-1_all.ipk
-Size: 22187
-SHA256sum: 1c297ea39e18569b34e169dedcff5e268de52081ba318fc21a92e61f5d93fa00
+Size: 22196
+SHA256sum: 1f1de2dccf4c03628192edd73dc4090489070d2b8b4aa74b1f64e08286a0efbc
 Description:  Netlink based bandwidth accounting
 
 Package: luci-app-openvpn
@@ -177,10 +177,10 @@ SourceName: luci-app-openvpn
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 11405
+Installed-Size: 11409
 Filename: luci-app-openvpn_git-19.149.33019-889e8ee-1_all.ipk
-Size: 12145
-SHA256sum: 9efe98144eca61bb856c9d7014468c0b8ccaf2db0215d9a3bb60ffff7f9fea37
+Size: 12148
+SHA256sum: e3e419e5e46641af3a29aad42cd72043c6592b40c467b947f55a7b221648086b
 Description:  LuCI Support for OpenVPN
 
 Package: luci-app-opkg
@@ -190,10 +190,10 @@ Source: feeds/luci/applications/luci-app-opkg
 SourceName: luci-app-opkg
 Section: luci
 Architecture: all
-Installed-Size: 7686
+Installed-Size: 7685
 Filename: luci-app-opkg_git-19.149.33019-889e8ee-1_all.ipk
 Size: 8404
-SHA256sum: b210cf9d33228c0191207c38fed0294c34430b6481c1440db578092eaade4bc5
+SHA256sum: 81b1daa024ba5ea2d1a6e3e87a295ccbf93d15398cf36c7d80daa476e7c93a10
 Description:  OPKG package management application
 
 Package: luci-app-p910nd
@@ -203,11 +203,24 @@ Source: feeds/luci/applications/luci-app-p910nd
 SourceName: luci-app-p910nd
 Section: luci
 Architecture: all
-Installed-Size: 1273
+Installed-Size: 1274
 Filename: luci-app-p910nd_git-19.149.33019-889e8ee-1_all.ipk
-Size: 2066
-SHA256sum: 350ca1b03731c415fb0ec7ba55e41fbbb280ab3f926a86251a45f3f420f1b4c0
+Size: 2074
+SHA256sum: 3019839ad4f04fd8632636f792514be26ff19401e1beaad02b05ab0a9f2d29fc
 Description:  p910nd - Printer server module
+
+Package: luci-app-samba4
+Version: git-19.149.33019-889e8ee-1
+Depends: libc, samba4-server
+Source: feeds/luci/applications/luci-app-samba4
+SourceName: luci-app-samba4
+Section: luci
+Architecture: all
+Installed-Size: 1768
+Filename: luci-app-samba4_git-19.149.33019-889e8ee-1_all.ipk
+Size: 2480
+SHA256sum: 2ca092329a8b3e5f4623be31b06e1c326fc3698627e19e869feb495dd69cd3a6
+Description:  Network Shares - Samba 4 SMB/CIFS module
 
 Package: luci-app-samba
 Version: git-19.149.33019-889e8ee-1
@@ -243,10 +256,10 @@ Source: feeds/luci/applications/luci-app-statistics
 SourceName: luci-app-statistics
 Section: luci
 Architecture: all
-Installed-Size: 30429
+Installed-Size: 30425
 Filename: luci-app-statistics_git-19.149.33019-889e8ee-1_all.ipk
-Size: 31305
-SHA256sum: 3901a30244fae0d47895a4624c9997c1d9ae7474b37937795d36ba1b6e7aff09
+Size: 31280
+SHA256sum: 4540f50f3fe0984805aa7dd5e37adc230bc3cff3571f7148b3c42c8da49eac0a
 Description:  LuCI Statistics Application
 
 Package: luci-app-unbound
@@ -271,8 +284,8 @@ Section: luci
 Architecture: all
 Installed-Size: 3577
 Filename: luci-app-upnp_git-19.149.33019-889e8ee-1_all.ipk
-Size: 4354
-SHA256sum: 35744aa7685fbfcc33398dcccf73d73984b8a5d51d0ca2477f394e68b5c42ab2
+Size: 4356
+SHA256sum: febb8805633e6ef34a407edabcf9f85a4775108e8391ce6d08dfe5ad789c1e6b
 Description:  Universal Plug & Play configuration module
 
 Package: luci-app-vnstat
@@ -282,10 +295,10 @@ Source: feeds/luci/applications/luci-app-vnstat
 SourceName: luci-app-vnstat
 Section: luci
 Architecture: all
-Installed-Size: 2256
+Installed-Size: 2258
 Filename: luci-app-vnstat_git-19.149.33019-889e8ee-1_all.ipk
-Size: 3045
-SHA256sum: 68535dce5678bc2c76a4f6985b5d15cd1cf7da86070fe6c345331f3a625fa408
+Size: 3047
+SHA256sum: 5fe580e51858857f7419842c9df7eb981f4e20a1b249a4fb7f7eee793426cc63
 Description:  LuCI Support for VnStat
 
 Package: luci-app-watchcat
@@ -295,10 +308,10 @@ Source: feeds/luci/applications/luci-app-watchcat
 SourceName: luci-app-watchcat
 Section: luci
 Architecture: all
-Installed-Size: 1430
+Installed-Size: 1431
 Filename: luci-app-watchcat_git-19.149.33019-889e8ee-1_all.ipk
-Size: 2189
-SHA256sum: 529544647e5121adad384f26897033754eb43d66710d05f482338f82ab5b89cc
+Size: 2194
+SHA256sum: 89537d4ac2399c616cbe8eae67cfb77970875f05a3dd4be61a885aa0c02b6681
 Description:  LuCI Support for Watchcat
 
 Package: luci-app-wireguard
@@ -335,10 +348,10 @@ SourceName: luci-base
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 130011
+Installed-Size: 130014
 Filename: luci-base_f138fc93-1_mipsel_24kc.ipk
-Size: 130950
-SHA256sum: f67322f5574502ba1c2169cea3328a0996b54ef575aa6fffeb64c320af0e034f
+Size: 130970
+SHA256sum: 90204000b1118360e83122774bb161e641240b9e0e8047338821b69fbbd20346
 Description:  LuCI core libraries
 
 Package: luci-lib-ip
@@ -349,10 +362,10 @@ SourceName: luci-lib-ip
 License: Apache-2.0
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 10371
+Installed-Size: 10368
 Filename: luci-lib-ip_git-19.149.33019-889e8ee-1_mipsel_24kc.ipk
-Size: 11119
-SHA256sum: e017259d25e5d2fab4315e1afa0b2f60bd0082ba7ce113cbd59a39633bd7994d
+Size: 11126
+SHA256sum: 79988715ea4fd428e31f14bb96af664a918b29b797356ece4a1e3550502920e7
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-ipkg
@@ -364,8 +377,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2076
 Filename: luci-lib-ipkg_git-19.149.33019-889e8ee-1_all.ipk
-Size: 2796
-SHA256sum: e31460291eac139abe7eac6c380aa5fc2ef0cab39e69565ff04ae7aed3ab2907
+Size: 2799
+SHA256sum: bbb42aa9cea197bc7f64d9fdbfffd6b45213f1dfb8982fdf29e40e0da1d01b43
 Description:  Legacy opkg interface class
 
 Package: luci-lib-iptparser
@@ -375,10 +388,10 @@ Source: feeds/luci/libs/luci-lib-iptparser
 SourceName: luci-lib-iptparser
 Section: luci
 Architecture: all
-Installed-Size: 3316
+Installed-Size: 3314
 Filename: luci-lib-iptparser_git-19.149.33019-889e8ee-1_all.ipk
-Size: 4020
-SHA256sum: aec58e1d349f83846676635a6a21af3f32e7236882e2bccd80465bc809c1115e
+Size: 4025
+SHA256sum: bc6f666f6d168f01b50d8d8fd0a3aeb7fcf8bbf40bfb972fc714ddb750fa2fca
 Description:  Iptables listing parser class
 
 Package: luci-lib-jsonc
@@ -388,10 +401,10 @@ Source: feeds/luci/libs/luci-lib-jsonc
 SourceName: luci-lib-jsonc
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 4213
+Installed-Size: 4212
 Filename: luci-lib-jsonc_git-19.149.33019-889e8ee-1_mipsel_24kc.ipk
-Size: 4929
-SHA256sum: 1fa61c4549da5cd05530d656cca14ec7ef56d4d3d15d2a5ecb24c92ee1c0139e
+Size: 4931
+SHA256sum: a3ea93f8f0686a76f51e7f7ea090cf70b717ae0412eb28395c3be4b8bd99734e
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-nixio
@@ -404,8 +417,8 @@ Section: luci
 Architecture: mipsel_24kc
 Installed-Size: 27843
 Filename: luci-lib-nixio_git-19.149.33019-889e8ee-1_mipsel_24kc.ipk
-Size: 28482
-SHA256sum: f43870ec4b1c3ee77afff21b6db2ae276f9fee7516dbfe5d687de56b8e8dd0a6
+Size: 28485
+SHA256sum: 74f2d70fb642d1d8dadc4e07414b5b2e7beea258cd0a56cb5fb0a835db6af1dc
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full
@@ -416,10 +429,10 @@ SourceName: luci-mod-admin-full
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 465
+Installed-Size: 467
 Filename: luci-mod-admin-full_git-19.149.33019-889e8ee-1_all.ipk
-Size: 1219
-SHA256sum: 200f81a8728517ba641c025a517f562b94605306da00b45d82a2b652a42c8095
+Size: 1217
+SHA256sum: 084152761865d711b67328e0e062c146033b60e63095172822b8aa85e1c820c5
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-network
@@ -430,10 +443,10 @@ SourceName: luci-mod-network
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 36883
+Installed-Size: 36884
 Filename: luci-mod-network_git-19.149.33019-889e8ee-1_all.ipk
-Size: 37803
-SHA256sum: 1ca438ef8a65dd04c190a77b1e67592e528f0397681d34ba78b53f388911f47c
+Size: 37799
+SHA256sum: 4249c8d8e0dd5140a67d1d336fb926ce34886aa2da3d039434640fe085e2223c
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
@@ -444,10 +457,10 @@ SourceName: luci-mod-status
 License: Apache-2.0
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 22698
+Installed-Size: 22702
 Filename: luci-mod-status_git-19.149.33019-889e8ee-1_mipsel_24kc.ipk
-Size: 23399
-SHA256sum: 8359ccd414a813dcf0e199237fc7f04e10aa8dd32df51046027692a5dda534c1
+Size: 23406
+SHA256sum: 981bbd17d5221a5422b86f7e491f9c6ef57a6506f6a67ec020781cd7e13e4d6d
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -458,10 +471,10 @@ SourceName: luci-mod-system
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 18921
+Installed-Size: 18917
 Filename: luci-mod-system_git-19.149.33019-889e8ee-1_all.ipk
 Size: 19649
-SHA256sum: d96c5e2af5a1075dcabad0bf7132213ebbf4f70583ab9df87ee25658abcb6df4
+SHA256sum: 6f1324301cf35631d62a9b7076bc42c8f365cc5d5f7506194f268aa28e5f5aa5
 Description:  LuCI Administration - Global System Settings
 
 Package: luci-proto-ipv6
@@ -472,10 +485,10 @@ SourceName: luci-proto-ipv6
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 3311
+Installed-Size: 3310
 Filename: luci-proto-ipv6_git-19.149.33019-889e8ee-1_all.ipk
-Size: 4054
-SHA256sum: 138c081ba8fe49898485c54891931ff7832364de61df3ca789ebc845370b377f
+Size: 4059
+SHA256sum: f2dda12220db8e66decadef207277d463dee8748d1fc4ef228a50c2475e5367e
 Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
 
 Package: luci-proto-ppp
@@ -488,8 +501,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2723
 Filename: luci-proto-ppp_git-19.149.33019-889e8ee-1_all.ipk
-Size: 3415
-SHA256sum: 77298b8188aa5756ad9b39152276329b9ffa0886310890f30c4a494fa608f869
+Size: 3419
+SHA256sum: 33efd169e708923d4e7e510b63e4e03514bf19a7023346b47ec001e1d300e3bf
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-relay
@@ -499,10 +512,10 @@ Source: feeds/luci/protocols/luci-proto-relay
 SourceName: luci-proto-relay
 Section: luci
 Architecture: all
-Installed-Size: 1872
+Installed-Size: 1870
 Filename: luci-proto-relay_git-19.149.33019-889e8ee-1_all.ipk
-Size: 2572
-SHA256sum: 7dd2feea0c70b4310addb790c9f1efa5d07a54a7b45391d25f6ee138f7eee80d
+Size: 2573
+SHA256sum: 1338efbb5f6d55e4d475e9d4261777cf92dc961198fb84553a04ed5e044f32c7
 Description:  Support for relayd pseudo bridges
 
 Package: luci-proto-wireguard
@@ -526,10 +539,10 @@ SourceName: luci-theme-bootstrap
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 11766
+Installed-Size: 11764
 Filename: luci-theme-bootstrap_git-19.149.33019-889e8ee-1_all.ipk
-Size: 12559
-SHA256sum: 45b9435ec401590fa7ea1d727ea62052a2f1e1a85a29a372e9e1317e7fca7bc5
+Size: 12558
+SHA256sum: dc4de27a56cbfaf620c3c3fdd26f1a87f1c6221e1f2fd41a658db6a226701aff
 Description:  Bootstrap Theme (default)
 
 Package: luci-theme-material
@@ -539,10 +552,10 @@ Source: feeds/luci/themes/luci-theme-material
 SourceName: luci-theme-material
 Section: luci
 Architecture: all
-Installed-Size: 54285
+Installed-Size: 54288
 Filename: luci-theme-material_git-19.149.33019-889e8ee-1_all.ipk
-Size: 55153
-SHA256sum: fd48d7fda4edb2d1c8ab5ae2eadca2fc8daddfb7268a7b9e9593c5f122922c14
+Size: 55156
+SHA256sum: f2e1914dbfaf9c2ff36c3f098f2a9356c0e3e284a2babb46947a9bc62b7b513e
 Description:  Material Theme
 
 Package: luci
@@ -553,10 +566,10 @@ SourceName: luci
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 104
+Installed-Size: 105
 Filename: luci_git-19.149.33019-889e8ee-1_all.ipk
-Size: 914
-SHA256sum: 50d2b784f191051ce6bc87e34b9eb9cd07fbc2e836fdd11cea2454ae8aa1c2eb
+Size: 918
+SHA256sum: cdada12b6d7b1d67abdb6dbac30e133914ea91247c8a815c62c903db862cb6aa
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
 Package: rpcd-mod-rrdns
@@ -571,6 +584,6 @@ Architecture: mipsel_24kc
 Installed-Size: 3832
 Filename: rpcd-mod-rrdns_20170710_mipsel_24kc.ipk
 Size: 4642
-SHA256sum: 2002ef120dc1091855084e1669aa1513a96907148ed78568993e4f61a278255f
+SHA256sum: 9db5abb3aacf0556c5b673741e8eee0b8d3d96360ba709f748c41889e1da9888
 Description:  Provides rapid mass reverse DNS lookup functionality.
 
