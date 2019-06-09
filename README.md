@@ -1,4 +1,5 @@
-# FIXED, will work on both flash models
+# FIXED, might work on both flash models
+Jo-Philipp Wich's patch applied.
 # Netgear R6220-100INS AC1200 OpenWrt Firmware
 **Factory partition: <0x2da0000>**
 
