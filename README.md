@@ -1,9 +1,12 @@
-# UPDATE: The wrong NAND driver behaviour has been fixed in OpenWrt snapshots dating 2019-08-29 and later.
-# Downloads: [19.07.0-rc2 release](https://downloads.openwrt.org/releases/19.07.0-rc2/targets/ramips/mt7621/)
-# Downloads: [snapshots](https://downloads.openwrt.org/snapshots/targets/ramips/mt7621/)
+# UPDATE: 
+**The wrong NAND driver behaviour has been fixed in OpenWrt snapshots dating 2019-08-29 and later.**
+
+**Downloads: [19.07.0-rc2 release](https://downloads.openwrt.org/releases/19.07.0-rc2/targets/ramips/mt7621/)**
+
+**Downloads: [snapshots](https://downloads.openwrt.org/snapshots/targets/ramips/mt7621/)**
 
 # These builds will no longer be maintained or updated.
-
+---
 # Netgear R6220-100INS AC1200 OpenWrt Firmware
 **Factory partition: <0x2da0000>**
 
